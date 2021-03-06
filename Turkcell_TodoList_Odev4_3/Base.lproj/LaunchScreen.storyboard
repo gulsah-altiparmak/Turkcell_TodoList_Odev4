@@ -1,25 +1,52 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GYw-7X-9bv">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
+        <scene sceneID="oLR-uj-3lI">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="GYw-7X-9bv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wKO-fy-3dn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="wUz-QD-y3y">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_logo_tr" translatesAutoresizingMaskIntoConstraints="NO" id="vBW-VB-hFB">
+                                <rect key="frame" x="0.0" y="342" width="414" height="209"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TEW-Bg-Ewa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wUz-QD-y3y" firstAttribute="top" secondItem="TEW-Bg-Ewa" secondAttribute="top" id="25g-s5-K7B"/>
+                            <constraint firstItem="wUz-QD-y3y" firstAttribute="leading" secondItem="TEW-Bg-Ewa" secondAttribute="leading" id="5xx-LG-0ho"/>
+                            <constraint firstItem="TEW-Bg-Ewa" firstAttribute="bottom" secondItem="wUz-QD-y3y" secondAttribute="bottom" id="7P0-mr-VwS"/>
+                            <constraint firstItem="TEW-Bg-Ewa" firstAttribute="trailing" secondItem="wUz-QD-y3y" secondAttribute="trailing" id="OGu-xr-tpe"/>
+                            <constraint firstItem="vBW-VB-hFB" firstAttribute="leading" secondItem="TEW-Bg-Ewa" secondAttribute="leading" id="Pne-4i-pbt"/>
+                            <constraint firstItem="TEW-Bg-Ewa" firstAttribute="bottom" secondItem="vBW-VB-hFB" secondAttribute="bottom" constant="311" id="Rtd-EZ-OUR"/>
+                            <constraint firstItem="vBW-VB-hFB" firstAttribute="trailing" secondItem="TEW-Bg-Ewa" secondAttribute="trailing" id="eN3-Xs-xI0"/>
+                            <constraint firstItem="vBW-VB-hFB" firstAttribute="top" secondItem="TEW-Bg-Ewa" secondAttribute="top" constant="298" id="pOP-dR-sha"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i2u-id-eD1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background3" width="485" height="602"/>
+        <image name="background_logo_tr" width="1031" height="687"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

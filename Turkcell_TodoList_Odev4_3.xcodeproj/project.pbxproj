@@ -3,19 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2606B557EC2639195D59734E /* Pods_Turkcell_TodoList_Odev4_3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAA01290DDB479264AA769D /* Pods_Turkcell_TodoList_Odev4_3.framework */; };
+		801CBA5825BE1E4700678CC4 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801CBA5725BE1E4700678CC4 /* CustomCell.swift */; };
+		8045343A25BF626000C06E4B /* DoneList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045343925BF626000C06E4B /* DoneList.swift */; };
 		804ECBB425BC406B0097695B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804ECBB325BC406B0097695B /* AppDelegate.swift */; };
 		804ECBB625BC406B0097695B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804ECBB525BC406B0097695B /* SceneDelegate.swift */; };
 		804ECBB825BC406B0097695B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804ECBB725BC406B0097695B /* ViewController.swift */; };
 		804ECBBB25BC406B0097695B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804ECBB925BC406B0097695B /* Main.storyboard */; };
 		804ECBBD25BC406F0097695B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804ECBBC25BC406F0097695B /* Assets.xcassets */; };
 		804ECBC025BC406F0097695B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804ECBBE25BC406F0097695B /* LaunchScreen.storyboard */; };
+		804ECBD825BC489C0097695B /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804ECBD725BC489C0097695B /* DB.swift */; };
+		804ECBDB25BC4C5B0097695B /* SCLAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804ECBDA25BC4C5B0097695B /* SCLAlert.swift */; };
+		804ECBDE25BC5A800097695B /* DetailList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804ECBDD25BC5A800097695B /* DetailList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FF6D78B2B238F817F2612F4 /* Pods-Turkcell_TodoList_Odev4_3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Turkcell_TodoList_Odev4_3.release.xcconfig"; path = "Target Support Files/Pods-Turkcell_TodoList_Odev4_3/Pods-Turkcell_TodoList_Odev4_3.release.xcconfig"; sourceTree = "<group>"; };
+		4BAA01290DDB479264AA769D /* Pods_Turkcell_TodoList_Odev4_3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Turkcell_TodoList_Odev4_3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		801CBA5725BE1E4700678CC4 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		8045343925BF626000C06E4B /* DoneList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneList.swift; sourceTree = "<group>"; };
 		804ECBB025BC406B0097695B /* Turkcell_TodoList_Odev4_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turkcell_TodoList_Odev4_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		804ECBB325BC406B0097695B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		804ECBB525BC406B0097695B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,10 @@
 		804ECBBC25BC406F0097695B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		804ECBBF25BC406F0097695B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		804ECBC125BC406F0097695B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		804ECBD725BC489C0097695B /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		804ECBDA25BC4C5B0097695B /* SCLAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCLAlert.swift; sourceTree = "<group>"; };
+		804ECBDD25BC5A800097695B /* DetailList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailList.swift; sourceTree = "<group>"; };
+		8D7BAECA0BB42974B0EABFA1 /* Pods-Turkcell_TodoList_Odev4_3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Turkcell_TodoList_Odev4_3.debug.xcconfig"; path = "Target Support Files/Pods-Turkcell_TodoList_Odev4_3/Pods-Turkcell_TodoList_Odev4_3.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2606B557EC2639195D59734E /* Pods_Turkcell_TodoList_Odev4_3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23ECA64D33391E375975D79A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BAA01290DDB479264AA769D /* Pods_Turkcell_TodoList_Odev4_3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79324993AADDD2A355E6931F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D7BAECA0BB42974B0EABFA1 /* Pods-Turkcell_TodoList_Odev4_3.debug.xcconfig */,
+				0FF6D78B2B238F817F2612F4 /* Pods-Turkcell_TodoList_Odev4_3.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		804ECBA725BC406B0097695B = {
 			isa = PBXGroup;
 			children = (
 				804ECBB225BC406B0097695B /* Turkcell_TodoList_Odev4_3 */,
 				804ECBB125BC406B0097695B /* Products */,
+				79324993AADDD2A355E6931F /* Pods */,
+				23ECA64D33391E375975D79A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +97,11 @@
 				804ECBBC25BC406F0097695B /* Assets.xcassets */,
 				804ECBBE25BC406F0097695B /* LaunchScreen.storyboard */,
 				804ECBC125BC406F0097695B /* Info.plist */,
+				804ECBD725BC489C0097695B /* DB.swift */,
+				804ECBDA25BC4C5B0097695B /* SCLAlert.swift */,
+				804ECBDD25BC5A800097695B /* DetailList.swift */,
+				801CBA5725BE1E4700678CC4 /* CustomCell.swift */,
+				8045343925BF626000C06E4B /* DoneList.swift */,
 			);
 			path = Turkcell_TodoList_Odev4_3;
 			sourceTree = "<group>";
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 804ECBC425BC406F0097695B /* Build configuration list for PBXNativeTarget "Turkcell_TodoList_Odev4_3" */;
 			buildPhases = (
+				167A279EBC82ED494141F5F1 /* [CP] Check Pods Manifest.lock */,
 				804ECBAC25BC406B0097695B /* Sources */,
 				804ECBAD25BC406B0097695B /* Frameworks */,
 				804ECBAE25BC406B0097695B /* Resources */,
+				021AE8CF84D5B0FB0AA4E8BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +173,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		021AE8CF84D5B0FB0AA4E8BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Turkcell_TodoList_Odev4_3/Pods-Turkcell_TodoList_Odev4_3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Turkcell_TodoList_Odev4_3/Pods-Turkcell_TodoList_Odev4_3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Turkcell_TodoList_Odev4_3/Pods-Turkcell_TodoList_Odev4_3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		167A279EBC82ED494141F5F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Turkcell_TodoList_Odev4_3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		804ECBAC25BC406B0097695B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804ECBDE25BC5A800097695B /* DetailList.swift in Sources */,
+				804ECBDB25BC4C5B0097695B /* SCLAlert.swift in Sources */,
 				804ECBB825BC406B0097695B /* ViewController.swift in Sources */,
+				8045343A25BF626000C06E4B /* DoneList.swift in Sources */,
+				804ECBD825BC489C0097695B /* DB.swift in Sources */,
 				804ECBB425BC406B0097695B /* AppDelegate.swift in Sources */,
+				801CBA5825BE1E4700678CC4 /* CustomCell.swift in Sources */,
 				804ECBB625BC406B0097695B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +371,7 @@
 		};
 		804ECBC525BC406F0097695B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D7BAECA0BB42974B0EABFA1 /* Pods-Turkcell_TodoList_Odev4_3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +390,7 @@
 		};
 		804ECBC625BC406F0097695B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF6D78B2B238F817F2612F4 /* Pods-Turkcell_TodoList_Odev4_3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
